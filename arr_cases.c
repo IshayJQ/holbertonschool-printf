@@ -1,14 +1,15 @@
 #include "main.h"
 
+type_cases cases[] = {
+	{"%", perfunct},
+	{"c", cfunct},
+	{"s", sfunct},
+	{"d", dfunct},
+	{"i", dfunct},
+	{NULL, NULL}
+};
+
 data *get_cases()
 {
-	data cases[] = {
-		{"%", perfunct},
-		{"c", cfunct},
-		{"s", sfunct},
-		{"d", dfunct},
-		{"i", dfunct},
-		{NULL, NULL}
-	};
 	return (cases);
 }

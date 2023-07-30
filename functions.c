@@ -14,7 +14,7 @@ char cfunct(char *str, va_list arguments)
 	str[_strlen(str)] = ch;
 	if (ch == '\0')
 		return (1);
-		return (0);
+	return (0);
 }
 /**
  * perfunct - add a % to the main string
