@@ -8,7 +8,7 @@ data *get_cases()
 		{"s", sfunct},
 		{"d", dfunct},
 		{"i", dfunct},
-		{NULL, NUll}
+		{NULL, NULL}
 	};
 	return (cases);
 }
