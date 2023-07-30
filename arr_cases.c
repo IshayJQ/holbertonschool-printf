@@ -1,6 +1,6 @@
 #include "main.h"
 
-type_cases cases[] = {
+data cases[] = {
 	{"%", perfunct},
 	{"c", cfunct},
 	{"s", sfunct},
