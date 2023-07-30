@@ -9,7 +9,7 @@
  * Return: return 1 if the loop needs to be broken, 0 otherwise
  */
 
-int form_h(const char *format, char *str, va_list arguments, type_cases *cases)
+int form_h(const char *format, char *str, va_list arguments, data *cases)
 {
 	int i = 0;
 	int loop = 0;
