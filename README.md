@@ -59,3 +59,7 @@ int form_h(const char *format, char *str, va_list arguments, data *cases)
  * @arguments: the va_list of arguments
  * @cases: the array of type_cases
  * Return: return 1 if the loop needs to be broken, 0 otherwise
+
+##Flowchart
+https://app.diagrams.net/#G1ECAEjunnONcSK2uutiTHbBlHLHEPPWHW
+https://app.diagrams.net/#G1qiHlo2IgZUMANqECr8BNtrcxjonv3qSi
